@@ -1,0 +1,44 @@
+ @import 'zmienne';
+
+.text-form{
+//    background-color: darkorange;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    width: 25%;
+     
+     h2{
+         color: $white;
+         font-size: 29px;
+        span{
+             color: $yellow;
+         }         
+
+     }
+     
+     .formularz{
+        background-color: $blue;
+         color: $white;
+         font-size: 20px;
+         padding: 10px 20px;
+         
+         h3{
+             margin: 0;
+            padding: 20px 0;
+         }
+
+         input, textarea{
+             display: inline-block;
+             width: 100%;
+             line-height: 40px;
+             margin: 5px 0;
+             padding: 10px;
+         }
+         
+         .btn{
+             width: 100px;
+             line-height: 40px;
+             background-color: $yellow;
+         }
+     }
+}

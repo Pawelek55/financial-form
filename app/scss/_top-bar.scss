@@ -1,0 +1,49 @@
+@import 'zmienne';
+
+.top-bar{
+    width: 80%;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+
+    
+    .top-bar-left{
+        width: 50%;
+        text-align:left;
+        display: inline-block;
+        float: left;
+        height: 100px;
+        
+        i{
+            color: yellow;
+        }
+        
+        p{
+            display: inline-block;
+        }
+    }
+    
+    .top-bar-right{
+        width: 50%;
+        text-align: right;
+        display: inline-block;
+        float: left;
+        font-size: 20px;
+        height: 100px;
+        
+        i{
+            font-size: 45px;
+        }
+        
+        p{
+            display: inline-block;
+            text-align: left;
+            
+            span{
+                font-size: 27px;
+            }
+        }
+    }
+}

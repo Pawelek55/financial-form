@@ -1,0 +1,15 @@
+@import 'zmienne';
+    
+body{
+    margin: 0;
+    font-family: $font;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@import 'main-background';
+@import 'top-bar';
+@import 'text-form';
+@import 'footer';

@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif; }
+
+* {
+  box-sizing: border-box; }
+
+#main-head {
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative; }
+
+.top-bar {
+  width: 80%;
+  color: #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px; }
+  .top-bar .top-bar-left {
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    height: 100px; }
+    .top-bar .top-bar-left i {
+      color: yellow; }
+    .top-bar .top-bar-left p {
+      display: inline-block; }
+  .top-bar .top-bar-right {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    height: 100px; }
+    .top-bar .top-bar-right i {
+      font-size: 45px; }
+    .top-bar .top-bar-right p {
+      display: inline-block;
+      text-align: left; }
+      .top-bar .top-bar-right p span {
+        font-size: 27px; }
+
+.text-form {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  width: 25%; }
+  .text-form h2 {
+    color: #fff;
+    font-size: 29px; }
+    .text-form h2 span {
+      color: #ecd407; }
+  .text-form .formularz {
+    background-color: #001d8a;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px; }
+    .text-form .formularz h3 {
+      margin: 0;
+      padding: 20px 0; }
+    .text-form .formularz input, .text-form .formularz textarea {
+      display: inline-block;
+      width: 100%;
+      line-height: 40px;
+      margin: 5px 0;
+      padding: 10px; }
+    .text-form .formularz .btn {
+      width: 100px;
+      line-height: 40px;
+      background-color: #ecd407; }
+
+.clear {
+  clear: both; }
+
+footer {
+  color: #fff; }
+
+.box-information {
+  float: left;
+  text-align: center;
+  width: 50%;
+  padding-top: 20px; }
+  .box-information .fa {
+    background-color: #ecd407;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #292929; }
+
+footer {
+  background-color: #292929; }
+  footer p {
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 0; }
